@@ -1,4 +1,4 @@
-Hi there 👋 I'm Daphne Smith (she/her) and I am an undergraduate Hydrogeology student at the University of Texas at Austin. I’m currently working with the Rempe Research Group doing Gas Sampling of wells. I'm also learning to use NMR for well logging. 
+Hi there! I'm Daphne Smith (she/her) and I am an undergraduate Hydrogeology student at the University of Texas at Austin. I’m currently working with the Rempe Research Group doing Gas Sampling of wells. I'm also learning to use NMR for well logging. 
 
 In my free time I'm an avid road cyclist, runner, hiker, and mountain biker. I love being outside in any capacity whether for recreation or doing field work.
 
