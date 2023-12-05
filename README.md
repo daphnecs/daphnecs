@@ -1,6 +1,6 @@
 Hi there! I'm Daphne Smith (she/her) and I am an undergraduate Hydrogeology student at the University of Texas at Austin. I’m currently working with the Rempe Research Group doing well logging with NMR and Neutron Probe.  
 
-In my free time I'm an avid road cyclist, runner, hiker, and mountain biker. I love being outside in any capacity whether for recreation or doing field work.
+In my free time I'm an avid cyclist, runner, hiker, and mountain biker. I love being outside in any capacity whether for recreation or doing field work.
 
 <!--
 **daphnecs/daphnecs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
