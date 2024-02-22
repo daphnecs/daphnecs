@@ -43,7 +43,20 @@
         a {
             color: #007BFF; /* Link color */
         }
-    </style>
+
+        @media screen and (max-width: 600px) {
+            /* Adjust styles for screens with a maximum width of 600px (typical mobile devices) */
+            main {
+                flex-direction: column-reverse; /* Stack the items in reverse order for better mobile layout */
+                align-items: center;
+            }
+
+            img {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+</style>
 </head>
 <body>
     <h1>Daphne Claire Smith</h1>
