@@ -58,22 +58,20 @@
             color: #007BFF; /* Link color */
             text-decoration: none;
             display: flex;
-            align-items: center; /* Align the title and image vertically */
+            flex-direction: column;
+            align-items: center; /* Center the title and image vertically */
             margin-top: 20px; /* Add some space between story links */
-            justify-content: center; /* Center the story block */
         }
 
         img.story-image {
-            width: 10%; /* Adjust the width of story images as needed */
+            width: 50%; /* Adjust the width of story images as needed */
             max-width: 100%;
-            margin-right: 20px;
+            margin-bottom: 10px;
             border-radius: 5px; /* Optional: Add rounded corners to story images */
         }
 
-        div.story-block {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        div.story-content {
+            text-align: center;
         }
 
         h2 {
@@ -106,7 +104,7 @@
 </head>
 <body>
     <!-- Title -->
-    <h1>Daphne Claire Smith</h1>
+    <h1>Daphne Claire Smith - Cycling Adventures</h1>
     
     <!-- Navigation Bar -->
     <nav>
@@ -114,8 +112,7 @@
         <a href="adventures.html">Cycling Adventures</a>
         <a href="research.html">Research</a>
     </nav>
-
-<!--     <h2>Daphne's Cycling Adventures</h2> -->
+    
     <main>
         <!-- Content for the cycling adventures page -->
         <img src="DSC00911.jpg" class="main-image">
@@ -128,9 +125,9 @@
 
     <!-- Clickable Links to Stories -->
     <h2>Stories</h2>
-    <a href="wfwc_writeup_23.html" class="story-block">
+    <a href="wfwc_writeup_23.html">
         <img src="WFWC photos/2C32AEC6-001D-4E78-9BDA-653E01C608A0.jpeg" class="story-image" alt="">
-        <div>
+        <div class="story-content">
             <p>Westfjords Way Challenge</p>
             <p>Short description of Story 1.</p>
         </div>
