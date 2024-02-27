@@ -23,6 +23,7 @@
             display: flex;
             justify-content: center;
             margin-bottom: 20px;
+            overflow: hidden; /* Ensure the pseudo-element doesn't overflow */
         }
 
         nav a {
@@ -44,6 +45,13 @@
             width: 35vw;
             max-width: 100%;
             margin-right: 15px;
+            position: relative;
+        }
+
+        img.main-image::before {
+            content: ''; /* Create a pseudo-element */
+            display: block;
+            padding-top: 56.25%; /* 16:9 aspect ratio (adjust as needed) */
         }
 
         div {
