@@ -66,18 +66,20 @@
 
         .story-block {
             display: flex;
+            flex-direction: column;
+            align-items: center;
             margin-top: 20px;
         }
 
         img.story-image {
-            width: 25%; /* Adjust the width of story images as needed */
+            width: 50%; /* Reduce the width of story images to half */
             max-width: 100%;
-            margin-right: 20px;
+            margin-bottom: 10px;
             border-radius: 5px; /* Optional: Add rounded corners to story images */
         }
 
         .story-content {
-            flex: 1;
+            text-align: center;
         }
 
         .story-title {
@@ -107,8 +109,7 @@
             img.story-image {
                 width: 70vw; /* Increase the width of story images for better visibility on mobile screens */
                 max-width: 100%;
-                margin-right: 0;
-                margin-bottom: 20px;
+                margin-bottom: 10px;
             }
         }
     </style>
@@ -123,7 +124,6 @@
         <a href="adventures.html">Cycling Adventures</a>
         <a href="research.html">Research</a>
     </nav>
-
 
     <main>
         <!-- Content for the cycling adventures page -->
