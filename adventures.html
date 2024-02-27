@@ -71,8 +71,11 @@
         }
 
         img.story-image {
-            width: 20vw; 
+            width: 15vw; /* Reduce the width of story images to half */
+            height: 0;
+            padding-bottom: 15vw; /* Set the padding to create a square aspect ratio */
             max-width: 100%;
+            object-fit: cover; /* Crop the image to cover the specified dimensions */
             margin-right: 20px;
             border-radius: 5px; /* Optional: Add rounded corners to story images */
         }
@@ -106,11 +109,13 @@
             }
 
             img.story-image {
-                width: 70vw; /* Increase the width of story images for better visibility on mobile screens */
+                width: 50vw; /* Reduce the width of story images to half */
+                height: 0;
+                padding-bottom: 50vw; /* Set the padding to create a square aspect ratio */
                 max-width: 100%;
-                margin-right: 0;
-                margin-bottom: 10px;
-            }
+                object-fit: cover; /* Crop the image to cover the specified dimensions */
+                margin-right: 20px;
+                border-radius: 5px; /* Optional: Add rounded corners to story images */
         }
     </style>
 </head>
