@@ -15,6 +15,10 @@
             padding: 20px;
         }
 
+        h1 {
+            text-align: center;
+        }
+
         nav {
             display: flex;
             justify-content: center;
@@ -29,10 +33,6 @@
             font-size: 18px;
         }
 
-        h1 {
-            text-align: center;
-        }
-
         main {
             display: flex;
             justify-content: space-between;
@@ -40,11 +40,10 @@
             margin-top: 20px;
         }
 
-        img {
-            width: 30%; /* Adjust the width as needed */
+        img.main-image {
+            width: 35vw;
             max-width: 100%;
             margin-right: 20px;
-            border-radius: 5px; /* Optional: Add rounded corners to the image */
         }
 
         div {
@@ -60,6 +59,14 @@
             text-decoration: none;
             display: flex;
             align-items: center; /* Align the title and image vertically */
+            margin-top: 20px; /* Add some space between story links */
+        }
+
+        img.story-image {
+            width: 20%; /* Adjust the width of story images as needed */
+            max-width: 100%;
+            margin-right: 20px;
+            border-radius: 5px; /* Optional: Add rounded corners to story images */
         }
 
         h2 {
@@ -74,8 +81,15 @@
                 align-items: center;
             }
 
-            img {
-                width: 70vw; /* Increase the width of the image for better visibility on mobile screens */
+            img.main-image {
+                width: 70vw; /* Increase the width of the main image for better visibility on mobile screens */
+                max-width: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            img.story-image {
+                width: 70vw; /* Increase the width of story images for better visibility on mobile screens */
                 max-width: 100%;
                 margin-right: 0;
                 margin-bottom: 20px;
@@ -84,7 +98,7 @@
     </style>
 </head>
 <body>
-<!--     Title -->
+    <!-- Title -->
     <h1>Daphne Claire Smith</h1>
     
     <!-- Navigation Bar -->
@@ -94,10 +108,10 @@
         <a href="research.html">Research</a>
     </nav>
 
-    <h1>Daphne's Cycling Adventures</h1>
+    <h2>Daphne's Cycling Adventures</h2>
     <main>
         <!-- Content for the cycling adventures page -->
-        <img src="DSC00911.jpg">
+        <img src="DSC00911.jpg" class="main-image">
         <div>
             <p>Welcome to my cycling adventures page! Here, I'll share my experiences and stories from my cycling journeys.</p>
             <!-- Add specific content for the cycling page -->
@@ -107,8 +121,8 @@
 
     <!-- Clickable Links to Stories -->
     <h2>Stories</h2>
-    <a href="wfwc_writeup_23.html"> <!-- Replace with the actual link to your story -->
-        <img src="WFWC photos/2C32AEC6-001D-4E78-9BDA-653E01C608A0.jpeg" alt="">
+    <a href="wfwc_writeup_23.html">
+        <img src="WFWC photos/2C32AEC6-001D-4E78-9BDA-653E01C608A0.jpeg" class="story-image" alt="">
         <div>
             <p>Westfjords Way Challenge</p>
             <p>Short description of Story 1.</p>
