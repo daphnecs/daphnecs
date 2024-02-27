@@ -57,26 +57,32 @@
         a {
             color: #007BFF; /* Link color */
             text-decoration: none;
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Center the title and image vertically */
-            margin-top: 20px; /* Add some space between story links */
-        }
-
-        img.story-image {
-            width: 50%; /* Adjust the width of story images as needed */
-            max-width: 100%;
-            margin-bottom: 10px;
-            border-radius: 5px; /* Optional: Add rounded corners to story images */
-        }
-
-        div.story-content {
-            text-align: center;
         }
 
         h2 {
             text-align: center;
             margin-top: 20px;
+        }
+
+        .story-block {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        img.story-image {
+            width: 25%; /* Adjust the width of story images as needed */
+            max-width: 100%;
+            margin-right: 20px;
+            border-radius: 5px; /* Optional: Add rounded corners to story images */
+        }
+
+        .story-content {
+            flex: 1;
+        }
+
+        .story-title {
+            font-size: 1.5em; /* Adjust the font size of the title */
+            margin-bottom: 10px;
         }
 
         @media screen and (max-width: 600px) {
@@ -91,6 +97,11 @@
                 max-width: 100%;
                 margin-right: 0;
                 margin-bottom: 20px;
+            }
+
+            .story-block {
+                flex-direction: column; /* Stack the story block items in a column for better mobile layout */
+                align-items: center;
             }
 
             img.story-image {
@@ -112,7 +123,8 @@
         <a href="adventures.html">Cycling Adventures</a>
         <a href="research.html">Research</a>
     </nav>
-    
+
+
     <main>
         <!-- Content for the cycling adventures page -->
         <img src="DSC00911.jpg" class="main-image">
@@ -125,15 +137,17 @@
 
     <!-- Clickable Links to Stories -->
     <h2>Stories</h2>
-    <a href="wfwc_writeup_23.html">
+    <div class="story-block">
         <img src="WFWC photos/2C32AEC6-001D-4E78-9BDA-653E01C608A0.jpeg" class="story-image" alt="">
         <div class="story-content">
-            <p>Westfjords Way Challenge</p>
+            <a href="wfwc_writeup_23.html">
+                <h3 class="story-title">Westfjords Way Challenge</h3>
+            </a>
             <p>Short description of Story 1.</p>
         </div>
-    </a>
+    </div>
 
-    <!-- Add more story links as needed -->
+    <!-- Add more story blocks as needed -->
 
 </body>
 </html>
