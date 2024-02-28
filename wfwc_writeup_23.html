@@ -10,13 +10,36 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: #f4f4f4;
+            background-color: #FAF9F6;
             margin: 0;
             padding: 0 20px; /* Add padding on either side of the page */
         }
 
         h1, h2, h3, p, img {
             max-width: 100%; /* Set max-width for text and images */
+        }
+
+        h1 {
+            text-align: center;
+            color: #007BFF; /* Match the color from your index.html */
+            margin-top: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            color: #3E7691;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        a {
+            color: #3E7691; /* Link color */
         }
     </style>
 </head>
@@ -25,8 +48,8 @@
     <!-- Navigation Bar -->
     <nav>
         <a href="index.html">Home</a>
-        <a href="adventures.html">Cycling Adventures</a>
         <a href="research.html">Research</a>
+        <a href="adventures.html">Cycling Adventures</a>
     </nav>
 
     <div id="markdown-container">
