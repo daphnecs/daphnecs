@@ -10,7 +10,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: #FAF9F6;
+            background-color: #f9f7f1;
             margin: 0;
             padding: 20px;
         }
@@ -41,9 +41,13 @@
         }
 
         img {
-            width: 25vw;
+            width: 25vw; /* Reduce the width of story images to half */
+            
+/*             padding-bottom: 15vw; /* Set the padding to create a square aspect ratio */ */
             max-width: 100%;
+            object-fit: cover; /* Crop the image to cover the specified dimensions */
             margin-right: 20px;
+            border-radius: 5px; /* Optional: Add rounded corners to story images */
         }
 
         div {
@@ -87,10 +91,10 @@
     <main>
         <img src="BEBEA080-FFC9-4B9E-A75F-5E177DDADA18_1_105_c.jpeg">
         <div>
-            <p>Welcome to my research page! Here, I'll share insights and updates about my ongoing research in Geosciences.</p>
+            <p>Welcome to my research page! Here, I'll share insights and updates about my ongoing research projects.</p>
             <!-- Add specific content for the research page -->
-            <p>My research focuses on fractured bedrock deep root zone water storage in the vadose zone (also known as the unsaturated or critical zone), and the connection between vadose zone rock moisture dynamics to drought in Central Texas.</p>
-            <p>I am currently pursuing my M.S. in Geosciences at the University of Texas at Austin under the guidance of <a href="https://www.jsg.utexas.edu/researcher/daniella_rempe/">Dr. Daniella Rempe</a>. If you're interested in the intersection of geosciences and environmental sustainability, feel free to explore my research updates!<br></p>
+            <p>My research focuses on rock moisture dynamics in the vadose zone (also known as the unsaturated or critical zone). I've primarily done work in the karstified terrain of the central Texas Hill Country, however I've also done work in various locations around California including Blue Oak Ranch Reserve, the field sites Povidence and Soaproot within the Sierra National Forest, and the Rancho Venada field site in the eastern foothills of the Northern California Coast Range.</p>
+            <p>I am currently pursuing my M.S. in Geosciences at the University of Texas at Austin under the guidance of <a href="https://www.jsg.utexas.edu/researcher/daniella_rempe/">Dr. Daniella Rempe</a>, expected to graduate in May 2024. Central Texas has seen 2 consecutive summers of exceptionally severe drought in 2022 and 2023. Through regular downhole geophysical monitoring of moisture dynamics in shallow boreholes at the White Family Outdoor Learning Center, coupled with surface water and meteoroloical data, I am exploring subsurface drought response in the deep root zone and the role these dynamics play in drought severity and recovery.<br></p>
             <p>photo left: running an experiment with a Guelph permeameter at the White Family Outdoor Learning Center in Dripping Springs, TX</p>
         
         </div>
