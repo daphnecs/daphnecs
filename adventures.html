@@ -10,7 +10,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: #FAF9F6;
+            background-color: #f9f7f1;
             margin: 0;
             padding: 20px;
         }
@@ -42,9 +42,13 @@
         }
 
         img.main-image {
-            width: 25vw;
+            width: 25vw; /* Reduce the width of story images to half */
+            height: 15vw;
+/*             padding-bottom: 15vw; /* Set the padding to create a square aspect ratio */ */
             max-width: 100%;
+            object-fit: cover; /* Crop the image to cover the specified dimensions */
             margin-right: 20px;
+            border-radius: 5px; /* Optional: Add rounded corners to story images */
         }
 
 
