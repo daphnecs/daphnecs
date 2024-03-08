@@ -62,6 +62,33 @@
             color: #3E7691; /* Link color */
         }
 
+        .story-block {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        img.story-image {
+            width: 25vw; /* Reduce the width of story images to half */
+            height: 15vw;
+/*             padding-bottom: 15vw; /* Set the padding to create a square aspect ratio */ */
+            max-width: 100%;
+            object-fit: cover; /* Crop the image to cover the specified dimensions */
+            margin-right: 20px;
+            border-radius: 5px; /* Optional: Add rounded corners to story images */
+        }
+
+        .story-content {
+            flex: 1;
+        }
+
+        .story-title {
+            font-size: 1.5em; /* Adjust the font size of the title */
+            margin-bottom: 10px;
+            margin-top: 35px;
+        }
+
+
         @media screen and (max-width: 600px) {
             /* Adjust styles for screens with a maximum width of 600px (typical mobile devices) */
             main {
@@ -100,5 +127,20 @@
         </div>
         <!-- You may include images or additional content here -->
     </main>
+
+     <!-- Clickable Links to Stories -->
+    <h1>Research Updates</h1>
+    <div class="story-block">
+        <img src="IMG_4681.jpeg" class="story-image" alt="">
+        <div class="story-content">
+            <a href="symposium24.html">
+                <h3 class="story-title">JSG Symposium 2024</h3>
+            </a>
+            <p>Presenting the work of my Master's thesis at the Jackson School's Annual Research Symposium</p>
+        </div>
+    </div>
+
+    <!-- Add more story blocks as needed -->
+    
 </body>
 </html>
